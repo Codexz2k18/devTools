@@ -1,0 +1,32 @@
+body {
+    background-color: #2a2a40;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+
+
+.close_tag {
+    font-size: 90px;
+    font-weight: bolder;
+    width: 220px;
+    height: 100px;
+    margin: auto;
+    padding: auto;
+    
+}
+
+.close_tag:hover {
+    text-shadow: 0 0 20px #fff;
+    transform: scale(1.15);
+    transition: all 600ms;
+}
+
+.close_tag:not(:hover) {
+    transition: all 800ms;
+}
