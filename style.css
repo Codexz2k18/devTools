@@ -1,15 +1,40 @@
+html,
 body {
-    background-color: #2a2a40;
-    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    background: rgb(9,45,76);
+    background: linear-gradient(180deg, rgba(9,45,76,1) 50%, rgba(0,101,110,1) 100%);
+    position: relative;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'roboto', sans-serif;
+
 }
 
 h1 {
+    font-weight: 900;
     font-size: 2rem;
     text-align: center;
-    font-weight: 700;
+    color: #FFF;
+    padding-bottom: 2rem;
 }
 
+h2 {
+    padding-top: 1rem;
+    color: #FFF;
+}
 
+.card {
+    font-weight: 400;
+    text-align: center;
+}
+
+.container_close_tag {
+    width: 20rem;
+    text-align: center;
+    margin: 0px auto;
+    padding-bottom: 2rem;
+}
 
 .close_tag {
     font-size: 90px;
@@ -18,7 +43,7 @@ h1 {
     height: 100px;
     margin: auto;
     padding: auto;
-    
+
 }
 
 .close_tag:hover {
@@ -29,4 +54,11 @@ h1 {
 
 .close_tag:not(:hover) {
     transition: all 800ms;
+}
+
+#copyright {
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+
 }
